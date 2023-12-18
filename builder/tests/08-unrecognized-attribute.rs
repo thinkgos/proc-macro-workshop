@@ -15,7 +15,7 @@
 //     https://docs.rs/syn/2.0/syn/struct.Error.html#method.to_compile_error
 
 use derive_builder::Builder;
-
+#[allow(dead_code)]
 #[derive(Builder)]
 pub struct Command {
     executable: String,

@@ -16,6 +16,7 @@
 
 use derive_debug::CustomDebug;
 
+#[allow(dead_code)]
 #[derive(CustomDebug)]
 pub struct Field {
     name: &'static str,

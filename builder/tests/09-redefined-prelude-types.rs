@@ -22,6 +22,7 @@ type None = ();
 type Result = ();
 type Box = ();
 
+#[allow(dead_code)]
 #[derive(Builder)]
 pub struct Command {
     executable: String,
